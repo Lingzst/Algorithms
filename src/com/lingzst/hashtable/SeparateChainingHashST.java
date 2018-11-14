@@ -1,4 +1,4 @@
-package lingzst.hashtable;
+package com.lingzst.hashtable;
 
 import edu.princeton.cs.algs4.SequentialSearchST;
 
