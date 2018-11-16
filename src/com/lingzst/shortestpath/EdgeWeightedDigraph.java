@@ -3,7 +3,6 @@ package com.lingzst.shortestpath;
 import com.lingzst.adt.Bag;
 
 
-
 public class EdgeWeightedDigraph {
 	private final int V;
 	private int E;
@@ -38,6 +37,6 @@ public class EdgeWeightedDigraph {
 		for(int v = 0; v < V; v++)
 			for(DirectedEdge e : adj[v])
 				bag.add(e);
-			return bag;
+		return bag;
 	}
 }
